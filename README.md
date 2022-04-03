@@ -62,10 +62,11 @@ And you are ready to go.
 - Make sure the right virtual environment is activated
 - In the terminal run the following commands
 
-'''
-- python main.py taskt1
-- python main.py taskc1
-'''
+```
+python main.py taskt1
+
+python main.py taskc1
+```
 
 - You should see the luigi commands end with :) status.
 
