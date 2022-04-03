@@ -14,7 +14,7 @@ config.read(os.path.join(here(), "config/clean.cfg"))
 
 
 class CleanCA500(Task):
-    """ 
+    """
     Transforming the csv file to a parquet file.
     Applying two simple cleaning concepts to the file as an example.
 
@@ -22,9 +22,11 @@ class CleanCA500(Task):
 
     Return: Saves the parquet file in "data/clean" folder.
     """
+
     params = DictParameter()
     columns_to_keep = ListParameter()
     output_file_name = Parameter()
+
     def output(self):
         # create the output path if it does not exit
         cleaned_output = os.path.join(here(), self.params["output"])
