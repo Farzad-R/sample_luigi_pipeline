@@ -5,7 +5,7 @@ Sample luigi pipeline
 ## Description
 
 A sample luigi pipeline using  .cfg files as config, with auto logging generation. Furthermore, project has a single entery point which was designed using argparse. The entery point can be designed based on the requirements of the project.
-As an example, using Hydra is another option.
+For instance you can use Hydra as an alternative.
 
 ## Notes:
 
