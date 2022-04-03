@@ -46,24 +46,39 @@ Current structure of the project:
 ├── setup.py
 └── test					# contains unit-test for different parts of the project
 ```
+## Example of how to get started with this project:
 
-### Command Order:
+- Clone the project
+- create a virtual env
+- Activate your env
+- Run pip install -e .
+
+And you are ready to go.
+
+### How to run and commands:
+
+- Open the project in the root directory. 
+- Open terminal
+- Make sure the right virtual environment is activated
+- In the terminal run the following commands
+
 '''
 - python main.py taskt1
 - python main.py taskc1
 '''
 
-## Example of how to get started with this project:
+- You should see the luigi commands end with :) status.
 
-- Clone the project
-- create a virtual env
-- activate your env
-- Run pip install -e .
+#### Luigi web interface:
 
-And you are ready to go.
-
+- Change default value of scheduler argument in main.py to False.
+- In terminal run: luigid
+- Open http://localhost:8082/
+- Run the tasks in a separate terminal
+- Refresh luigi web page 
 
 ## Data:
+
 Free data downloaded from internet.
 
 ### Dependencies
