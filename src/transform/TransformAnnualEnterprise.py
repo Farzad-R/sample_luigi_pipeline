@@ -36,7 +36,7 @@ class TransformAnnualEnterprise(Task):
         # lower case all variables through out this cloumn
         df["Industry_name_NZSIOC"] = df["Industry_name_NZSIOC"].str.lower()
         df["Industry_name_NZSIOC"] = df["Industry_name_NZSIOC"].str.replace(" ", "_", regex=True).str.strip("_")
-        # lower case all column names and replace any non alphabetical character with underscore        df.columns = df.columns.str.lower()
+        # lower case all column names and replace any non alphabetical character with underscore
         df.columns = df.columns.str.replace("[^A-Za-z0-9]+", "_", regex=True).str.strip(
             "_"
         )

@@ -33,7 +33,7 @@ class CleanCA500(Task):
     def run(self):
         task_input = os.path.join(here(), self.params["input"])
         df = pd.read_csv(task_input, usecols=self.columns_to_keep)
-        # lower case all column names and replace any non alphabetical character with underscore        df.columns = df.columns.str.lower()
+        # lower case all column names and replace any non alphabetical character with underscore
         df.columns = df.columns.str.replace("[^A-Za-z0-9]+", "_", regex=True).str.strip(
             "_"
         )
