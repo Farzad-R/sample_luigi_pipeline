@@ -19,7 +19,7 @@ Current structure of the project:
 .
 ├── data                    # (added to .gitignore)
 │   ├── clean               # Clean data (auto-generate)
-│   ├── transform
+│   ├── transform           # transformed data (auto-generate)
 │   └── raw                 # The raw data
 │       ├── annual-enterprise-survey-2020-financial-year-provisional-csv.csv
 │       └── ca-500.csv
