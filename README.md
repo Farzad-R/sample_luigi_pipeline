@@ -13,8 +13,7 @@ In order to be able to use the project in different operating systems without th
 
 In your own project, I suggest to add data, report_docs, and logs folders to .gitignore. 
 
-Luigi tasks can contain three different parts, requires, output, and run. Howoever, the way you use these three methods vary based on your needs. In this pipeline, I didn't use the requires method. Also, output is just used to create the new output directory for that specific task.
-Check the [documentation](https://luigi.readthedocs.io/en/stable/tasks.html) for further information of how you can use luigi pipelines.
+Luigi tasks can contain three different parts, requires, output, and run. However, the way you use these three methods vary based on your needs. In this pipeline, I didn't use the requires method. Also, output is just used to create the new output directory for that specific task. Check the [documentation](https://luigi.readthedocs.io/en/stable/tasks.html) for further information of how you can use luigi pipelines.
 
 ## Project initial structure
 
