@@ -11,7 +11,7 @@ As an example, using Hydra is another option.
 
 In order to be able to use the project in different operating systems without the need to change the path structure (for windows, linux and mac), os library and pyprojroot were utilized. Moreover, using pyprojroot, the project automatically detects the location of parent folder. So, no need to modify the directories in your system. 
 
-
+In your own project, I suggest to add data, report_docs, and logs folders to .gitignore. 
 ## Project initial structure
 
 Current structure of the project:
